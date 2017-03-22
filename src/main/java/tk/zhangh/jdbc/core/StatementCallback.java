@@ -8,5 +8,5 @@ import java.sql.Statement;
  */
 public interface StatementCallback<R> extends Callback<R, Statement>{
     @Override
-    R callBack(Statement type);
+    R callBack(Statement statement);
 }

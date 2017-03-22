@@ -3,7 +3,7 @@ package tk.zhangh.jdbc.datasource;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
-import tk.zhangh.app.DataSourceFactory;
+import tk.zhangh.app.BeanFactory;
 
 import javax.sql.DataSource;
 import java.sql.Connection;
@@ -19,7 +19,7 @@ public class DataSourceUtilsTest {
 
     @Before
     public void init() throws Exception {
-        dataSource = DataSourceFactory.dataSource();
+        dataSource = BeanFactory.dataSource();
     }
 
     @Test

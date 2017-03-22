@@ -8,5 +8,5 @@ import java.sql.Connection;
  */
 public interface ConnectionCallback<R> extends Callback<R, Connection>{
     @Override
-    R callBack(Connection type);
+    R callBack(Connection connection);
 }
