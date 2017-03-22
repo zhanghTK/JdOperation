@@ -34,7 +34,7 @@ public class DataSourceUtils {
         }
     }
 
-    public static void colseStatement(Statement statement) {
+    public static void closeStatement(Statement statement) {
         if (statement == null) {
             return;
         }

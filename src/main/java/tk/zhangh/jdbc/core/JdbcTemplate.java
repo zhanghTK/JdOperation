@@ -29,7 +29,7 @@ public class JdbcTemplate extends JdbcAccessor implements JdbcOperations {
         } catch (SQLException e) {
             throw sqlExceptionTranslator.translate("", e);
         } finally {
-            DataSourceUtils.colseStatement(statement);
+            DataSourceUtils.closeStatement(statement);
             DataSourceUtils.releaseConnection(connection);
         }
     }
