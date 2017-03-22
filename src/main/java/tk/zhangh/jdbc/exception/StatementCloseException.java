@@ -1,4 +1,4 @@
-package tk.zhangh.scalpel.jdbc.exception;
+package tk.zhangh.jdbc.exception;
 
 /**
  * Statement关闭异常

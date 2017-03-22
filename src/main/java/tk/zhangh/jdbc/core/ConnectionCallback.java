@@ -1,4 +1,4 @@
-package tk.zhangh.scalpel.jdbc.core;
+package tk.zhangh.jdbc.core;
 
 import java.sql.Connection;
 

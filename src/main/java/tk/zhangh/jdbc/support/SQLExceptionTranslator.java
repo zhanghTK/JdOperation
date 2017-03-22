@@ -1,6 +1,6 @@
-package tk.zhangh.scalpel.jdbc.support;
+package tk.zhangh.jdbc.support;
 
-import tk.zhangh.scalpel.jdbc.exception.DataAccessException;
+import tk.zhangh.jdbc.exception.DataAccessException;
 
 import java.sql.SQLException;
 

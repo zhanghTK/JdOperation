@@ -1,8 +1,8 @@
-package tk.zhangh.scalpel.jdbc.core;
+package tk.zhangh.jdbc.core;
 
 
 import lombok.Data;
-import tk.zhangh.scalpel.jdbc.support.SQLExceptionTranslator;
+import tk.zhangh.jdbc.support.SQLExceptionTranslator;
 
 import javax.sql.DataSource;
 

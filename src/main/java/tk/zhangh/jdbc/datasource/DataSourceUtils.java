@@ -1,8 +1,8 @@
-package tk.zhangh.scalpel.jdbc.datasource;
+package tk.zhangh.jdbc.datasource;
 
-import tk.zhangh.scalpel.jdbc.exception.JdbcConnectionGetException;
-import tk.zhangh.scalpel.jdbc.exception.JdbcConnectionReleaseException;
-import tk.zhangh.scalpel.jdbc.exception.StatementCloseException;
+import tk.zhangh.jdbc.exception.JdbcConnectionGetException;
+import tk.zhangh.jdbc.exception.JdbcConnectionReleaseException;
+import tk.zhangh.jdbc.exception.StatementCloseException;
 
 import javax.sql.DataSource;
 import java.sql.Connection;

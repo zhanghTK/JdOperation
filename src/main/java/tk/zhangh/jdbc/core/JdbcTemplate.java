@@ -1,6 +1,6 @@
-package tk.zhangh.scalpel.jdbc.core;
+package tk.zhangh.jdbc.core;
 
-import tk.zhangh.scalpel.jdbc.datasource.DataSourceUtils;
+import tk.zhangh.jdbc.datasource.DataSourceUtils;
 
 import java.sql.Connection;
 import java.sql.SQLException;
